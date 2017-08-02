@@ -61,6 +61,11 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Mhv-zD-pwU" secondAttribute="bottom" constant="8" symbolic="YES" id="va1-G9-5e8"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="answerPickerView" destination="zGo-of-I4G" id="MyL-yb-VMZ"/>
+                        <outlet property="questionLabel" destination="fxg-dh-T94" id="Yz7-Et-jyh"/>
+                        <outlet property="questionTextView" destination="oKG-WN-08t" id="8sM-VD-arp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
